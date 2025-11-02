@@ -1,0 +1,28 @@
+##Usaremos o Vitae
+npm create vite@latest .
+
+#Removendo algumas pastas e arquivos
+Public
+Assets
+Arquivo App.CSS
+
+# dentro do index.CSS remover todo o conteudo e importar as dependencias para usar o tailwind
+
+#----------------------------------------------
+# instalar o TailWind
+# instalar a extensão tailwind no vscode
+# entrar no site e ir em docs | getStart
+
+npm install tailwindcss @tailwindcss/vite
+
+# no arquivo vite.cong adicionar essas duas linhas
+import tailwindcss from '@tailwindcss/vite'
+ tailwindcss(), # dentro dos plugins
+
+# no index.CSS fazer o import
+
+#instalar o prettier que organiza a sequencia de classes do tailwind para ficar mais legivel e manter um padrao
+npm install -D prettier prettier-plugin-tailwindcss
+# addicionar uma chave chamada "Prettier" no meu packge.jason e colocar o seguinte :
+
+# instalar a extensão no vscode ES7 + React 
