@@ -25,4 +25,40 @@ import tailwindcss from '@tailwindcss/vite'
 npm install -D prettier prettier-plugin-tailwindcss
 # addicionar uma chave chamada "Prettier" no meu packge.jason e colocar o seguinte :
 
-# instalar a extensão no vscode ES7 + React 
+# instalar a extensão no vscode ES7 + React
+rafce
+
+
+# instalar no gg crome uma dependencia chama react debuggu chrome 
+
+# no index.csss podemos adicionar no @thme uma cor especifica
+
+
+# no site hereicon podemos pegar o jsx de alguns icones como px: seach
+
+# para gerenciar as rotas, inclusive a de login precisamos instalar um novo pacote no npm
+npm i react-router-dom
+
+
+
+##########################
+# Configurações do backend
+
+# entrar na pasta bn end e inicializar o npm
+
+npm init -y 
+
+#instalação do express
+npm  i express
+
+# criar um index.js para rodar atraves do rum dev
+
+#instalar o dotnev
+npm i dotenv
+
+# criei uma conta no mongo
+nome de usuario para conexao :geodevjohn_db_user
+Senha :gqEb4F4yPllx120H
+
+
+# para fazer o teste de post tem que ter a extensão reqbin

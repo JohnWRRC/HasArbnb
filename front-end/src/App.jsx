@@ -1,9 +1,22 @@
 import Header from "./components/Header"
+import Itens from "./components/Itens"
+import Home from "./pages/home"
+import Login from "./pages/Login"
+import {BrowserRouter,Route,Routes} from "react-router-dom";
+
+
 function App() {
-
-
   return (
+    <BrowserRouter>
+
     <Header />
+    <Routes>
+        <Route path="/" element={ <Home /> } />
+        <Route path="/login" element={ <Login /> } />
+    </Routes>
+
+
+    </BrowserRouter>
   )
 }
 

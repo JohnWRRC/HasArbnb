@@ -1,32 +1,34 @@
 import React from 'react'
+import { Link }   from 'react-router-dom';
+
 
 function Header() {
   return (
     <div className="shadow-md ">
     <div className='items-center max-w-7xl mx-auto flex justify-between px-4 py-4'>
-        <div className='flex items-center '>
+        <Link to='/' className='flex items-center '>
             <img className='h-10' src="https://cdn.prod.website-files.com/61b9e0dd381626819c8d4f83/65e2198d48039ba6444f602b_logo%20hashtag%20-%20h.webp" alt="Logo da hastTag" />
             <p className='text-2xl font-bold text-primary-400'>ashbnb</p>
-        </div>
+        </Link>
 
 
-        <div className='flex items-center border border-gray-300 rounded-full px-4 py-2 shadow-md shadow-gray-300'>
+        <Link to="/" className='hidden lg:flex items-center border border-gray-300 rounded-full px-4 py-2 shadow-md shadow-gray-300'>
             <p className='pr-4 border-r border-r-gray-300'>Qualquer Lugar</p>
             <p className='px-4 border-r border-r-gray-300'>Qualquer Semana</p>
             <p className='px-4'>Hóspedes</p>
 
             <div className='bg-primary-400 rounded-2xl f p-2 text-white'>
-             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
-            <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-            </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
             </div>
 
-        </div>
+        </Link>
 
 
         <div>
 
-            <div className='flex items-center border border-gray-300 rounded-full px-4 py-2 shadow-md shadow-gray-300 gap-2'>
+            <Link to="/login" className='flex items-center border border-gray-300 rounded-full px-4 py-2 shadow-md shadow-gray-300 gap-2'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}           stroke="currentColor" className="size-6 text-gray-500">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
@@ -36,9 +38,9 @@ function Header() {
                 </svg>
 
 
-                <p>John</p>
+                <p className='max-w-20 truncate sm:max-w-32 '>John Wesley Ribeiro</p>
 
-             </div>
+             </Link>
 
         </div>
 
